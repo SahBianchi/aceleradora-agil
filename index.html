@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <main>
+        <section class="contentAbout">
+            <img src="src/user.png" alt="" class="imgUser">
+            <div>
+                <h1 class="aboutName">Your Name</h1>
+                <p class="aboutTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla risus, volutpat eu libero id, tempor rutrum magna. Aliquam erat volutpat. Etiam euismod neque ac leo efficitur blandit id sit amet tortor.</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#" class="link">Link 1</a></li>
+                    <li><a href="#" class="link">Link 2</a></li>
+                    <li><a href="#" class="link">Link 3</a></li>
+                    <li><a href="#" class="link">Link 4</a></li>
+                </ul>
+            </div>
+    
+        </section>
+    
+        <section class="containerToDo">
+            <h1 class="titleToDo">To Do List</h1>
+
+            <div class="containerToDoList">
+
+                <div class="containerToDoDay">
+                    <h2>Day</h2>
+                    <div>
+                        <ul class="taskList" id="listDay">
+                            <li id="taskDay">
+                                <div class="taskItem">
+                                    <input type="radio" id="checkTaskDay" name="tasks" />
+                                    <label for="task1" class="taskLabel" id="nameTaskDay">Task 1</label>
+                                    <button class="deleteButton" id="deleteTaskDay">-</button>
+                                </div>
+                            </li>
+
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="containerToDoNigth">
+                    <h2>Nigth</h2>
+                    <div>
+                        <ul class="taskList" id="listNigth">
+                            <li id="taskNigth">
+                                <div class="taskItem">
+                                    <input type="radio" id="checkTaskNigth" name="tasks" />
+                                    <label for="task1" class="taskLabel" id="nameTaskNigth">Task 1</label>
+                                    <button class="deleteButton" id="deleteTaskNigth">-</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="buttonAdd">
+                        <button class="roundButton" id="openModal">+</button>
+                    </div>
+
+                    <!-- Adicione este modal ao seu HTML -->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <!-- <span class="close" id="closeModal">&times;</span> -->
+                            <form id="taskForm">
+                                <input type="text" id="newTask" name="newTask" placeholder="New Task" required>
+                                <div>
+                                    <button type="button" id="chooseDayModal">Day</button>
+                                    <h6>or</h6>
+                                    <button type="button" id="chooseNightModal">Night</button>
+                                </div>
+                                <button type="submit">Save</button>
+                            </form>
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="modal.js"></script>
+</body>
+</html>
