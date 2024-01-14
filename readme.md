@@ -34,17 +34,15 @@ Com o design em mãos, iniciei o desenvolvimento utilizando HTML, CSS e JavaScri
 - **Marcação de Tarefas Concluídas:**
   - Enfrentei desafios na implementação da funcionalidade para mudar a formatação do input radio ao ser clicado, sinalizando que a tarefa foi concluída. Ao clicar novamente, a tarefa deveria retornar à formatação de tarefa não concluída. Esta funcionalidade ainda está pendente de implementação.
 
+- **Estilização do Modal de Criação de Tarefa:**
+  - A estilização completa do modal de criação de tarefa ainda não foi implementada. O modal pode não oferecer a melhor experiência visual e precisa de ajustes estéticos.
+
 - **Responsividade:**
   - A execução completa da responsividade ainda não foi alcançada. A experiência do usuário pode variar em diferentes dispositivos e tamanhos de tela.
 
-- **Perfil do Usuário:**
-  - A adição de um botão com a imagem do perfil, que abriria um modal contendo detalhes como imagem, nome, descrição e links do usuário, é um desafio que ainda não foi abordado. Esta funcionalidade visa proporcionar uma experiência mais personalizada e informativa.
+  - A adição de um botão com a imagem do perfil, que abriria um modal contendo detalhes como imagem, nome, descrição e links do usuário, é um desafio que ainda não foi abordado. Esta funcionalidade seria vista apenas em telas pequenas e visa proporcionar uma experiência mais personalizada e informativa.
 
-- **Interação entre Listas:**
-  - A interatividade entre as listas de tarefas diurnas e noturnas não foi completamente implementada. A ideia era que, ao clicar na aba "Night", a lista de tarefas noturnas seria exibida e a lista diurna seria reduzida, e vice-versa. Esta interação visa simplificar a visualização de tarefas com base no período do dia.
-
-- **Estilização do Modal de Criação de Tarefa:**
-  - A estilização completa do modal de criação de tarefa ainda não foi implementada. O modal pode não oferecer a melhor experiência visual e precisa de ajustes estéticos.
+  - A interatividade entre as listas de tarefas diurnas e noturnas não foi completamente implementada. A ideia era que, ao clicar na aba "Night", a lista de tarefas noturnas seria exibida e a lista diurna seria reduzida, e vice-versa. Esta interação será vizualizada apenas em telas pequenas e visa simplificar a visualização de tarefas com base no período do dia.
 
 
 ## 🛠️ Próximos Passos
