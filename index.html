@@ -32,20 +32,15 @@
             <h1 class="titleToDo">To Do List</h1>
 
             <div class="containerToDoList">
-
                 <div class="containerToDoDay">
                     <h2>Day</h2>
                     <div>
                         <ul class="taskList" id="listDay">
-                            <li id="taskDay">
-                                <div class="taskItem">
-                                    <input type="radio" id="checkTaskDay" name="tasks" />
-                                    <label for="task1" class="taskLabel" id="nameTaskDay">Task 1</label>
-                                    <button class="deleteButton" id="deleteTaskDay">-</button>
-                                </div>
-                            </li>
-
-                            
+                            <div class="taskItem">
+                                <!-- <input type="radio" id="checkTaskDay" name="tasks" />
+                                <label for="task1" class="taskLabel" id="nameTaskDay">Task 1</label>
+                                <button class="deleteButton" id="deleteTaskDay">-</button> -->
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -53,14 +48,12 @@
                 <div class="containerToDoNigth">
                     <h2>Nigth</h2>
                     <div>
-                        <ul class="taskList" id="listNigth">
-                            <li id="taskNigth">
-                                <div class="taskItem">
-                                    <input type="radio" id="checkTaskNigth" name="tasks" />
-                                    <label for="task1" class="taskLabel" id="nameTaskNigth">Task 1</label>
-                                    <button class="deleteButton" id="deleteTaskNigth">-</button>
-                                </div>
-                            </li>
+                        <ul class="taskList" id="listNight">
+                            <div class="taskItem">
+                                <!-- <input type="radio" id="checkTaskNigth" name="tasks" />
+                                <label for="task1" class="taskLabel" id="nameTaskNigth">Task 1</label>
+                                <button class="deleteButton" id="deleteTaskNigth">-</button> -->
+                            </div>
                         </ul>
                     </div>
 
@@ -68,21 +61,19 @@
                         <button class="roundButton" id="openModal">+</button>
                     </div>
 
-                    <!-- Adicione este modal ao seu HTML -->
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <!-- <span class="close" id="closeModal">&times;</span> -->
-                            <form id="taskForm">
-                                <input type="text" id="newTask" name="newTask" placeholder="New Task" required>
-                                <div>
-                                    <button type="button" id="chooseDayModal">Day</button>
-                                    <h6>or</h6>
-                                    <button type="button" id="chooseNightModal">Night</button>
-                                </div>
-                                <button type="submit">Save</button>
-                            </form>
+                          <form id="taskForm">
+                            <input type="text" id="newTask" name="newTask" placeholder="New" required>
+                            <select id="taskType" name="taskType">
+                              <option value="#">Para qual Lista?</option>
+                              <option value="day">Day</option>
+                              <option value="night">Night</option>
+                            </select>
+                            <button type="submit">Adicionar</button>
+                          </form>
                         </div>
-                    </div>
+                      </div>
   
                 </div>
             </div>
